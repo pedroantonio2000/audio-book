@@ -1,0 +1,77 @@
+body {
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+
+}
+
+img {
+    height: 270px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+.container-faixa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.capitulo {
+    margin-bottom: 0;
+    font-size: large;
+}
+
+.autor {
+    margin-top: 0;
+    font-size: large;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 10px;
+    
+}
+
+.bi-skip-start-fill {
+    border: none;
+    background-color: inherit;
+    transform: scale(3.25);
+    cursor: pointer;
+    padding: 0;
+}
+
+.bi-play-circle-fill {
+    border: none;
+    background-color: inherit;
+    transform: scale(3.25);
+    cursor: pointer;
+    padding: 0;
+}
+
+.bi-skip-end-fill {
+    border: none;
+    background-color: inherit;
+    transform: scale(3.25);
+    cursor: pointer;
+    padding: 0;
+}
+
+
+.bi-pause-circle-fill {
+    border: none;
+    background-color: inherit;
+    transform: scale(3.25);
+    cursor: pointer;
+    padding: 0;
+}
